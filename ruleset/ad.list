@@ -1,0 +1,9 @@
+# 别名策略
+# 当请求为 HTTP 请求时返回一个极小的 GIF
+🈚️ 替换 = reject-tinygif
+
+# 阻止请求
+🈲 拦截 = reject
+
+# 不使用代理，直接连接
+🈯️ 放行 = direct
